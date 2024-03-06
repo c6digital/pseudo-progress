@@ -12,6 +12,7 @@
         "url": "https://github.com/c6digital/pseudo-progress",
         "type": "git"
     },
+    "main": "dist/pseudo-progress.js",
     "scripts": {
         "build": "esbuild src/pseudo-progress.ts --bundle --minify --sourcemap --format=esm --outdir=dist",
         "watch": "esbuild src/pseudo-progress.ts --bundle --minify --sourcemap --format=esm --outdir=dist --watch"
