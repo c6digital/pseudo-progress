@@ -19,7 +19,7 @@ const bar = document.getElementById('bar');
 
 pseudoProgress({
     minimumSteps: 4,                        // The minimum number of steps.
-    maximumSteps: 8                         // The maximum number of steps.
+    maximumSteps: 8,                        // The maximum number of steps.
     minimumStepDuration: 100,               // The minimum duration of a step.
     maximumStepDuration: 300,               // The maximum duration of a step.
     minimumStepProgress: 10,                // The minimum progress increase for a step.
