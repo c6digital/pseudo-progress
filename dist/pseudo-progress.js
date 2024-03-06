@@ -1,0 +1,2 @@
+async function o(e){e={onProgress:m=>{},onFinish:()=>{},...e};let r=n(e.minimumSteps,e.maximumSteps),s=0;for(let m=0;m<=r;m++){let u=n(e.minimumStepDuration,e.maximumStepDuration),i=n(e.minimumStepProgress,e.maximumStepProgress);await t(u),s+=Math.min(Math.max(i,0),100),e.onProgress(s)}e.onProgress(100),e.onFinish()}function n(e,r){return Math.floor(Math.random()*(r-e+1)+e)}function t(e){return new Promise(r=>{setTimeout(r,e)})}export{o as pseudoProgress};
+//# sourceMappingURL=pseudo-progress.js.map
